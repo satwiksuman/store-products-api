@@ -14,7 +14,7 @@ mongoose
     console.log(err);
   });
 
-//app.use(bodyParser.urlencoded({ extended: false }));
+
 app.use(express.json());
 
 const productSchema = new mongoose.Schema({
